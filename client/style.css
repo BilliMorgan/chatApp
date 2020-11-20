@@ -41,7 +41,13 @@ button {
   border: none;
 }
 
-
+/* #message {
+  height: 20px;
+} */
+input {
+  height: 30px;
+  border: none
+}
 
 
 /* .odd-message {
