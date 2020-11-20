@@ -22,6 +22,15 @@ io.on("connection", function (socket) {
   
 });
 
-server.listen(8080, function () {
-  console.log("Chat server running on port: 8080");
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8080;
+}
+
+server.listen(port, function () {
+ console.log("Chat server running on port: 8080")
 });
+
+// server.listen(8080, function () {
+//   console.log("Chat server running on port: 8080");
+// });
