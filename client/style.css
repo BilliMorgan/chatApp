@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+  color: #303030;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 20px;
+}
+
+main {
+  background-color: #f0f0f0;
+  margin: 20px auto;
+  max-width: 450px;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 12px #c2bfbf;
+}
+
+ol {
+  list-style: none;
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+li:nth-child(odd) {
+  background-color: #e3e3e3;
+  border-radius: 6px;
+}
+form {
+  background-color: lightsteelblue;
+  border-radius: 6px;
+  margin: 0;
+  padding: 10px;
+}
+
+button {
+  background-color: cornflowerblue;
+  border: none;
+}
+
+
+/* .odd-message {
+  background-color: rgb(162, 159, 159);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  list-style: none;
+}
+.even-message {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  list-style: none;
+} 
+*/
