@@ -37,11 +37,21 @@ form {
 }
 
 button {
-  background-color: cornflowerblue;
+  background-color: rgb(119, 133, 163);
   border: none;
+  border-radius: 6px;
+  width: 80px;
+  height: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  box-shadow: 5px 5px 6px #2d2b2b;
 }
 
 input {
   height: 30px;
   border: none;
+  border-radius: 6px;
+
 }

@@ -6,7 +6,8 @@ var server = http.Server(app);
 
 app.use(express.static("client"));
 var io = require("socket.io")(server);
-let messageArhive = [];
+
+var messageArhive = [];
 
 io.on("connection", function (socket) {
   messageArhive.map((message) => {
@@ -25,5 +26,5 @@ if (port == null || port == "") {
 }
 
 server.listen(port, function () {
-  console.log("Chat server running on port: 8080");
+  console.log("Chat server running on port: http://localhost:8080");
 });
