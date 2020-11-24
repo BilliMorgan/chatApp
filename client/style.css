@@ -8,7 +8,7 @@ body {
 main {
   background-color: #f0f0f0;
   margin: 20px auto;
-  max-width: 450px;
+  max-width: 580px;
   padding: 20px;
   border-radius: 6px;
   box-shadow: 5px 5px 12px #c2bfbf;
@@ -37,21 +37,29 @@ form {
 }
 
 button {
-  background-color: rgb(119, 133, 163);
+  background-color: cornflowerblue;
   border: none;
-  border-radius: 6px;
-  width: 80px;
-  height: 30px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 10px;
-  box-shadow: 5px 5px 6px #2d2b2b;
+  border-radius: 3px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-transform: uppercase;
 }
 
-input {
-  height: 30px;
-  border: none;
-  border-radius: 6px;
 
+input {
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+#initials {
+  width: 100px;
+
+}
+
+#message {
+  width: 315px;
 }
