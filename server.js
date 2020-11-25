@@ -59,7 +59,7 @@ io.on("connection", function (socket) {
           let userName = msg.split(" ");
           io.emit(
             "message",
-            botAnswer + "hello " + userName[0] + "! How are you douing?"
+            botAnswer + "hello " + userName[0] + "! ask me about weather ot time!!!"
           );
         }, 800);
       } else {
