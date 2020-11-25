@@ -1,8 +1,9 @@
-var socket = io();
+let socket = io();
 
 $("form").on("submit", function () {
-  let text = $("#initials").val() + " says: " + $("#message").val();
-  socket.emit("message", text);
+  let text = $("#message").val();
+  let name = $("#initials").val();
+  socket.emit("message", name + " says: " + text);
   $("#message").val("");
   $("#initials").val("");
 

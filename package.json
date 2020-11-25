@@ -20,6 +20,7 @@
   "homepage": "https://github.com/BilliMorgan/chatApp#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "request": "^2.88.2",
     "socket.io": "^3.0.3"
   }
 }
